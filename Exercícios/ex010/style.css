@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image:linear-gradient(rgb(52, 226, 148), rgb(98, 98, 98));
+    padding: 20px;
+    text-align: center;   
+}
+
+nav {
+    text-align: left;
+}

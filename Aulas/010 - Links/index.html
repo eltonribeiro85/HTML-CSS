@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Links e Âncoras</title>
+</head>
+
+<body>
+    <h1>Links e Âncoras</h1>
+    <hr>
+    <h2>Links</h2>
+    <p>Links são encontrados em quase todas as páginas da web. Os links permitem que os usuários cliquem de uma página para outra.</p>
+    <hr>
+    <h2>Links HTML - O atributo de destino</h2>
+    <p>Por padrão, a página vinculada será exibida na janela atual do navegador. Para alterar isso, você deve especificar outro destino para o link.
+    </p>
+    <p>O "target" atributo especifica onde abrir o documento vinculado.</p>
+    <p>O "target" atributo pode ter um dos seguintes valores:</p>
+    <ul>
+        <li>_self - Padrão. Abre o documento na mesma janela/aba em que foi clicado</li>
+        <li>_blank - Abre o documento em uma nova janela ou guia</li>
+        <li>_parent - Abre o documento no quadro pai</li>
+        <li>_top - Abre o documento em todo o corpo da janela</li>
+    </ul>
+    <hr>
+    <h2>Link para um endereço de e-mail</h2>
+    <p>Use "mailto:" dentro do "href" atributo para criar um link que abra o programa de e-mail do usuário (para permitir que ele envie um novo e-mail):</p>
+    <p>
+        <a href="mailto:s1048d06m12@gmail.com">Send email</a>
+    </p>
+    <hr>
+    <h2>Botão como um link</h2>
+    <p>Para usar um botão HTML como link, você deve adicionar algum código JavaScript. <br>
+    JavaScript permite especificar o que acontece em determinados eventos, como o clique de um botão:</p>
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+    <hr>
+    <h2>Títulos de links</h2>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+    <hr>
+    <h2>Botões de link</h2>
+    <p>Um link também pode ser estilizado como um botão, usando CSS:</p>
+    <p>A link styled as a button:</p>
+    <a href="default.asp" target="_blank" class="button">This is a link</a>
+    <hr>
+    <h2>Criando Um Marcador em HTML</h2>
+    <p>Os marcadores podem ser úteis se uma página da web for muito longa. <br>
+     Para criar um marcador: primeiro crie o marcador e depois adicione um link a ele. <br>
+     Quando o link é clicado, a página rola para baixo ou para cima até o local com o marcador.</p>
+    <p><a href="#C4">Jump to Chapter 4</a></p>
+    <p><a href="#C10">Jump to Chapter 10</a></p>
+
+    <h2>Chapter 1</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 2</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 3</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2 id="C4">Chapter 4</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 5</h2>
+    <p>This chapter explains ba bla bla</p>
+     
+    <h2>Chapter 6</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 7</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 8</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 9</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2 id="C10">Chapter 10</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 11</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 12</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 13</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 14</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 15</h2>
+    <p>This chapter explains ba bla bla</p>
+    <hr>
+    <h2>Usando Links Externos</h2>
+    <p>Para acessar minha página no instagram basta clicar <a href="https://www.instagram.com/elton10061985/" target="_blank" rel="external">aqui</a></p>
+    <hr>
+    <h2>Usando Links Internos</h2>
+    <p>Essa é a página principal caso eu queira ir para a página index02 basta clicar <a href="index02.html" target="_self" rel="next">aqui</a></p>
+    <p>Essa é a página principal caso eu queira ir para a página index03 basta clicar <a href="index03.html" target="_self" rel="next">aqui</a></p>
+    <hr>
+    <h2>Links Para Download</h2>
+    <ul>
+        <li><a href="Livro/10 - Ligações em toda parte.pdf" target="_blank" rel="external" download="Livro/10 - Ligações em toda parte.pdf" type="application/pdf">Baixar Livro em PDF</a></li>
+        <li><a href="Livro/10 - Ligações em toda parte.rar" download="Livro/10 - Ligações em toda parte.rar" type="application/vnd.rar" >Livro Compactado em RAR</a></li>
+    </ul>   
+</body>
+
+</html>
